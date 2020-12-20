@@ -21,3 +21,5 @@ For login credentials:
 
 - email: guest@gmail.com
 - password: Psivakumar123
+
+Link to our GitHub Repository: https://github.com/emilyvainberg12/CS97-Web-App-
