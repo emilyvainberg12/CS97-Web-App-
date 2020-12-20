@@ -58,15 +58,12 @@ export class UpcomingAssignments extends React.Component {
                 }
                 this.setState({
                     queried: true,
-                    assignments: [assign1,assign2,assign3,assign4]  
-                    // returns the four classes that appear at the top of the assignment list
-                    // not sorted yet for time dependency         
+                    assignments: [assign1,assign2,assign3,assign4]         
                 })
             })
         }
     
     renderButton(group, title){
-        //const navigate = useNavigate(); 
         return (
             <div key = {title}>
              <Link to={{
@@ -79,7 +76,6 @@ export class UpcomingAssignments extends React.Component {
     }
 
     render() {
-      // ony call query the database once when the website launches
       if (!this.state.queried)
         this.display(); 
         console.log(this.state.assignments[1]);
@@ -131,7 +127,6 @@ function Pass() {
     ); 
 }
 
-// returns name of the selected assignment
 export function Test({name}){ 
     let { id } = useParams();  
     return (
@@ -313,14 +308,6 @@ export class Description extends React.Component {
         //empty text field
         var question_string_val = this.state.submit_question
         question_string_val = ""
-        // var sendToBackend = {
-        //     question: {
-        //         text: m_disc.question.text,
-        //         date: m_disc.question.date,
-        //     },
-        //     responses: m_disc.responses,
-        //     assignment: this.state.title,
-        // }
         
         this.setState({
           discussion: m_disc,
@@ -350,8 +337,6 @@ export class Description extends React.Component {
         .catch(error => {
             console.error("ERROR CLIENT SIDE: ", error);
         })
-        //you might need to use this below if you use the database but not 100% sure
-        //window.location.reload()
     }
     
     

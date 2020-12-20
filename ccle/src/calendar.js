@@ -98,19 +98,6 @@ function Square(text, date, events, assignments) {
         }
         
         return Square(days[i], this.state.dates[i], meetings, render_assign);
-        /*
-      if(this.state.elements["Assignments"] === true && this.state.elements["Meetings"] === true) {
-          return Square(days[i], this.state.dates[i], this.state.meetings[i], this.state.assignments[i]);
-      }
-      else if (this.state.elements["Assignments"] === true && this.state.elements["Meetings"] === false) {
-          return Square(days[i], this.state.dates[i], [], this.state.assignments[i]);
-      }
-      else if (this.state.elements["Assignments"] === false && this.state.elements["Meetings"] === true) {
-          return Square(days[i], this.state.dates[i], this.state.meetings[i], []);
-      }
-      else {
-          return Square(days[i], this.state.dates[i], [], []);
-      } */
     }
     
     //update what items are filtered

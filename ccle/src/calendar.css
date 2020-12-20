@@ -1,6 +1,5 @@
 body {
-    font-family: 'Open Sans', roboto;
-  /*font: 1px "Century Gothic", Futura, sans-serif;*/
+  font-family: 'Open Sans', roboto;
   margin: 0px;
 }
 
@@ -122,12 +121,10 @@ table {
   margin-right: 20px;  
   color: floralwhite; 
   border-radius: 10px;
-  /*background-color: white;*/
   background: #45b6fe; 
   border: none;
   color: #FFFFFF;
   text-align: center;
-  /*color: #588BAE; */
   padding: 5px; 
   padding-right: 20px; 
   padding-left: 20px;
@@ -138,11 +135,6 @@ table {
   font-weight: 500;
   font-size: 11px;
   border: 2px solid #45b6fe;
-}
-
-.buttons:focus {
-    /*background-color: #588BAE; */
-    /*color: #fff;*/
 }
 
 .buttons span {
@@ -176,12 +168,10 @@ table {
   margin-right: 20px;
   color: floralwhite;
   border-radius: 10px;
-  /*background-color: white;*/
   background: #FFFFFF;
   border: none;
   color: #45b6fe;
   text-align: center;
-  /*color: #588BAE; */
   padding: 5px;
   padding-right: 20px;
   padding-left: 20px;
@@ -192,11 +182,6 @@ table {
   font-weight: 500;
   font-size: 11px;
   border: 2px solid #45b6fe;
-}
-
-.all-button:focus {
-    /*background-color: #588BAE; */
-    /*color: #fff;*/
 }
 
 .all-button span {
