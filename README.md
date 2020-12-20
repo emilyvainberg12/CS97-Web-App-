@@ -1,7 +1,7 @@
 # CS97 Web-App: Ookla Manager 
 
 Jonathan Lam, Franklin Choi, Emily Vainberg, Yili Liu, Prathyush Sivakumar</br>
-UCLA CS97 Fall 2020
+UCLA CS 97 Fall 2020
 
 ### To run the code:
 
@@ -11,8 +11,8 @@ cd ccle
 npm install
 ```
 
-This will install all the required dependencies.
-**To run backend and frontend simultaneously:**:
+This will install all the required dependencies.</br>
+**To run backend and frontend simultaneously:**
 
 - `cd ccle/server`
 - `node server.js`
@@ -20,7 +20,7 @@ This will install all the required dependencies.
 - This will run the server and client on two separate terminals
 - If the terminal prompts to run on a different port number, type 'y' or 'yes'
 
-For login credentials:
+**For login credentials:**
 
 - email: guest@gmail.com
 - password: Psivakumar123
