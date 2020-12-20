@@ -1,5 +1,8 @@
 # CS97 Web-App: Ookla Manager 
 
+Jonathan Lam, Franklin Choi, Emily Vainberg, Yili Liu, Prathyush Sivakumar</br>
+UCLA CS97 Fall 2020
+
 ### To run the code:
 
 ```
